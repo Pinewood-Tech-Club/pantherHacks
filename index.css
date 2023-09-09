@@ -4,52 +4,54 @@
 } 
 
 body {
-        background-color: white;
-        font-family: sans-serif;
-    }
-    h1, h2, h3, h4, h5 {
-        text-align: center;
-        padding: 5%;
-    }
-    p {
-        text-align: center;
-    }
-    #mainTitle {
-        font-size: larger;
-    }
-    #mainContainer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    #DescriptionContainer {
-        overflow: hidden;
-        position: relative;
-        padding-top: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-bottom: 2vh;
-    }
-    .bg {
-        opacity: 0.2;
-        position: absolute;
-        left: -25%;
-        top: -50%;
-        width: 150%;
-        height: auto;
-    }
-    .content {
-        position: relative;
-    }
-    #buttonContainer {
-        margin-top: 35px;
-    }
-.coloredSection {
+    background-color: white;
+    font-family: sans-serif;
+}
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    padding: 5%;
+}
+p {
+    text-align: center;
+}
+#mainTitle {
+    font-size: larger;
+}
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#DescriptionContainer {
+    overflow: hidden;
+    position: relative;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2vh;
+}
+.bg {
+    opacity: 0.2;
+    position: absolute;
+    left: -25%;
+    top: -50%;
+    width: 150%;
+    height: auto;
+}
+.content {
+    position: relative;
+}
+#buttonContainer {
+    margin-top: 35px;
+}
+#coloredSection1 {
     background: #1A5D1A;
-    background: linear-gradient(120deg, #fbab1a 50%, #1A5D1A 50%);
-    /* background: linear-gradient(120deg, #fbab1a 0%, #1A5D1A 100%); if u like this one more, just uncomment it :) */
-    /* color: white;  */
+    background: linear-gradient(120deg, #40513B 10%, #609966 30%, #9DC08B 60%, #EDF1D6 90%);
+}
+#coloredSection2 {
+    background: #1A5D1A;
+    background: linear-gradient(70deg, #40513B 10%, #609966 30%, #9DC08B 60%, #EDF1D6 90%);
 }
 .navbar {
     padding: 0 0 4.5rem !important;
@@ -80,4 +82,5 @@ ul li {
 footer {
     text-align: right;
     margin-top: auto;
+    margin-right: 2vw;
 }
