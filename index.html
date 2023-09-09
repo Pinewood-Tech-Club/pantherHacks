@@ -7,60 +7,102 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
     </head>
     <body>
         <section id="titleSection" class="coloredSection">
             <div class="container-fluid ">
               <!--Navbar-->
               <nav class="navbar navbar-expand-md navbar-dark">
-                <img class="navbar-brand " src="./TechClubPantherLogo.png" alt="image" height="100px">
-                <a class="navbar-brand">Pinewood Tech Club</a>
+                <img class="navbar-brand " src="./TechClubPantherLogo.png" alt="image" height="70px">
+                <a class="navbar-brand">Pinewood Technology Club</a>
               </nav>
               <div>
-                  <h1 class="h3">Small School, Big Plans. Experience Innovation at Pinewood's Annual Hackathon!</p>
-                </div>
+                  <h3>Small School, Big Plans. Experience Innovation at Pinewood's Annual Hackathon!</p>
+            </div>
         
             </div>
           </section>
         <div id="DescriptionContainer">
-            <h1>Introducing <b>PantherHacks</b></h1>
-            <p>
-                The tech club at Pinewood is hosting their annual hackathon. This hackathon will take place on November 4th, from 10:00AM - 8:00PM and November 5th, from 10:00AM - 6:00PM.
-                We hope to see you there!
-            </p>
+            <img class="bg" src="./TechClubShirtLogo.png">
+            <div class="content">
+                <h1>Introducing <b>PantherHacks</b></h1>
+                <ul id="introList">
+                    <li>Don't miss this annual Hack-A-Thon!</li>
+                    <li>Pinewood Technology Club strives to spread computing joy while learning valuable programming skills and techniques with friends.</li>
+                    <li>Meet new people, and become a pro at the same time.</li>
+                    <li><b>insert incredibly good sales speech right here.</b></li>
+                    <li>We hope to see you there and we can't wait to meet you!</li>
+                </ul>
+                <div id="buttonContainer">
+                    <button class="btn btn-lg btn-outline-success btn-block" type="button"Sign Me Up! href="https://forms.gle/FNLUejLhm4iDH9V89">Sign Me Up!</button>
+                </div>
+                <p>
+                    <br>This year, PantherHacks will take place at Pinewood Upper School from November 4th to November 5th. 
+                </p>
+                <h5 style="padding-bottom: 5px;">Date and Time</h5>
+                <p>
+                    November 4th from 10:00AM to 8:00PM <br> November 5th from 10:00AM to 6:00PM
+                </p>
+            </div>
         </div>
-        <div id="mainContainer">
-            <div id="infoContainer">
-                <div id="experienceRequirements">
-                    <h1 id="experienceRequirementsTitle">Experience Requirements: </h1>
-                    <p>
+        <section id="mainContainer" class="coloredSection">
+            <h2>Frequently Asked Questions</h2>
+
+            <div id="carouselIndicators2" class="carousel slide" data-ride="carousel" data-interval="false">
+                <div class="carousel-inner" style="margin-top: 0px;"> 
+                    <div  class="carousel-item active container-fluid" style="padding-top: 0px;">
+                        <h4 class="review-text2">Do I need <b>experience</b>?</h4>
+                        <p class="review-text3">
                         Absolutely <b>no programming experience is required</b> to participate
-                        in the Pinewood hackathon. It is recommended that you submit your experience on the 
+                        in PantherHacks. It is recommended that you submit your experience on the 
                         <a target="_blank" href="https://www.techmeme.com/">form here</a>
                         to help us gauge the skill of everyone participating in the hackathon.
-    
-                    </p>
+                        </p>
+                    </div>
+                    <div class="carousel-item container-fluid">
+                        <h4 class="review-text2">What do I need to bring?</h4>
+                        <ul class="review-text3">
+                            <li>Your own Laptop and charger</li>
+                            <li>Snacks, Lunch will be provided</li>
+                            <li>There are water fountains on Campus, so there is no need to bring a waterbottle </li>
+                        </ul>
+                    </div>
+                    <div  class="carousel-item container-fluid">
+                        <h4 class="review-text2">Who can participate</h4>
+                        <p class="review-text3">
+                            While some schools have been explicitly invited to PantherHacks, any school in the <b>Bay Area Penninsula</b> is welcome to participate!
+                        </p>
+                    </div>
+                    <div class="carousel-item container-fluid">
+                        <h4 class="review-text2">How will my project be scored?</h4>
+                        <p class="review-text3">
+                            PantherHacks will be providing a theme and different prize catagories, so projects are scored based on how well they incorporate both of these elements. Additionally, projects will be scored on technical difficulty, <b>challenge yourself!</b>
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <h1 id="whatToBringTitle">What To Bring:</h1>
-                    <p>
-                        <b>You need to bring your own laptop</b> for this hackathon. Food will NOT be provided. <b>You need to bring your own lunch!</b>
-                        There are water fountains at the school campus, so there is no need to bring your own waterbottle.
-    
-                    </p>
-                </div>
-                <div id="prizes">
-                    <h1 id="prizesTitle">Prizes:</h1>
-                    <p>
-                        The prizes for this hackathon, other than the friends you made along the way, will be distributed based on <b>how fun your game is</b>, <b>how well it fits the theme</b>, <b>if it implements the limitation</b>, and <b>how much experience you have</b>.
-                    </p>
-                </div>
-            </div>
-            <div id="buttonContainer">
-                <a target="_blank" href="https://forms.gle/FNLUejLhm4iDH9V89">
-                    <button id="button">Sign me up!</button>
+                <a class="carousel-control-prev" href="#carouselIndicators2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
                 </a>
+                <a class="carousel-control-next" href="#carouselIndicators2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
             </div>
-        </div>
+            
+        </section>
+        <!-- Footer -->
+        <footer class="page-footer font-small ml-auto">
+            <div class="footer-copyright ml-auto py-3">@2023 Pinewood Technology Club</div>
+        </footer>
     </body>
 </html>
