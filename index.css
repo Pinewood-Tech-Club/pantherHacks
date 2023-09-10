@@ -45,13 +45,9 @@ p {
 #buttonContainer {
     margin-top: 35px;
 }
-#coloredSection1 {
+.coloredSection {
     background: #1A5D1A;
-    background: linear-gradient(120deg, #40513B 10%, #609966 30%, #9DC08B 60%, lightgray 90%);
-}
-#coloredSection2 {
-    background: #1A5D1A;
-    background: linear-gradient(70deg, #40513B 10%, #609966 30%, #9DC08B 60%, lightgray 90%);
+    background: linear-gradient(145deg, rgba(251, 171, 26, .90) 50%, rgba(26, 93, 26, .80) 50%);
 }
 .navbar {
     padding: 0 0 4.5rem !important;
