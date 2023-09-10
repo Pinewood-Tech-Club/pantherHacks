@@ -1,10 +1,9 @@
 #DescriptionContainer, #infoContainer {
-    margin-right: 10px;
-    margin-left: 10px;
+
 } 
 
 body {
-    background-color: white;
+    background-color: lightgray;
     font-family: sans-serif;
 }
 h1, h2, h3, h4, h5 {
@@ -23,9 +22,10 @@ p {
     align-items: center;
 }
 #DescriptionContainer {
+    background-color: lightgray;
     overflow: hidden;
     position: relative;
-    padding-top: 10px;
+    padding-top: 2vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,9 +34,9 @@ p {
 .bg {
     opacity: 0.2;
     position: absolute;
-    left: -25%;
-    top: -50%;
-    width: 150%;
+    left: 25%;
+    top: 0%;
+    width: 50%;
     height: auto;
 }
 .content {
@@ -47,11 +47,11 @@ p {
 }
 #coloredSection1 {
     background: #1A5D1A;
-    background: linear-gradient(120deg, #40513B 10%, #609966 30%, #9DC08B 60%, #EDF1D6 90%);
+    background: linear-gradient(120deg, #40513B 10%, #609966 30%, #9DC08B 60%, lightgray 90%);
 }
 #coloredSection2 {
     background: #1A5D1A;
-    background: linear-gradient(70deg, #40513B 10%, #609966 30%, #9DC08B 60%, #EDF1D6 90%);
+    background: linear-gradient(70deg, #40513B 10%, #609966 30%, #9DC08B 60%, lightgray 90%);
 }
 .navbar {
     padding: 0 0 4.5rem !important;
@@ -83,4 +83,8 @@ footer {
     text-align: right;
     margin-top: auto;
     margin-right: 2vw;
+}
+#carouselIndicators2 {
+    padding-left: 200px;
+    padding-right: 200px;
 }
