@@ -84,3 +84,8 @@ footer {
     padding-left: 200px;
     padding-right: 200px;
 }
+
+.text {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
