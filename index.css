@@ -89,7 +89,8 @@ footer {
 }
 
 #sponsorSection {
-    margin-top: 7%;
+    padding-top: 7%;
+    background-color: lightgray;
 }
 
 .sponsor {
