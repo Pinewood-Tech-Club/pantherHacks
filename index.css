@@ -38,9 +38,6 @@ p {
 .content {
     position: relative;
 }
-#buttonContainer {
-    margin-top: 35px;
-}
 .coloredSection {
     background: #1A5D1A;
     background: linear-gradient(145deg, rgba(251, 171, 26, .90) 50%, rgba(26, 93, 26, .80) 50%);
@@ -84,4 +81,17 @@ footer {
 .text {
     font-weight: 500;
     font-size: 1.1rem;
+}
+
+.textButton {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#sponsorSection {
+    margin-top: 7%;
+}
+
+#mail {
+    color: #1A5D1A;
 }
