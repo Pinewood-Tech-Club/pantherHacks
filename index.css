@@ -64,9 +64,10 @@ p {
 ul {
     list-style-type: none;
     text-align: center;
+    padding-right: 5vw;
 }
 ul li {
-    padding: 5px 100px;
+    padding: 1vh 1vw;
 }
 footer {
     text-align: right;
@@ -81,6 +82,11 @@ footer {
 .text {
     font-weight: 500;
     font-size: 1.1rem;
+}
+
+#pantherHacksDescr {
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .textButton {
