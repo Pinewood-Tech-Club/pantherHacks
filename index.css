@@ -53,6 +53,10 @@ p {
     align-self: center;
   }
 
+.narvar-btn {
+    margin-right: 10px;
+}
+
   .container-fluid {
     padding: 7% 15%;
   }
