@@ -41,6 +41,7 @@ p {
 .coloredSection {
     background: #1A5D1A;
     background: linear-gradient(145deg, rgba(251, 171, 26, .90) 50%, rgba(26, 93, 26, .80) 50%);
+    height: 60vh;
 }
 .navbar {
     padding: 0 0 4.5rem !important;
@@ -78,7 +79,6 @@ footer {
     padding-left: 2vw;
     padding-right: 2vw;
 }
-
 .text {
     font-weight: 500;
     font-size: 1.1rem;
@@ -115,5 +115,11 @@ footer {
     margin-right: 2vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+.carousel-control-prev {
+    height: 30vh;
+}
+.carousel-control-next {
+    height: 30vh;
 }
 
