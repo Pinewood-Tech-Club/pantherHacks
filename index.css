@@ -122,4 +122,6 @@ footer {
 .carousel-control-next {
     height: 30vh;
 }
-
+#headerLogo {
+    font-size: 30px !important;
+}
