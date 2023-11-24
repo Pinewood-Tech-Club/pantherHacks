@@ -125,3 +125,14 @@ footer {
 #headerLogo {
     font-size: 30px !important;
 }
+
+.prizeSection {
+    border-color: rgba(26, 93, 26);
+    border-left: 10px solid rgba(251, 171, 26, .90);
+    border-right: 10px solid rgba(251, 171, 26, .90);
+    background-color: rgba(26, 93, 26, .70);
+}
+
+.image {
+    height: 18rem;
+}
