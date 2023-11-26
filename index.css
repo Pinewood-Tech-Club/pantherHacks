@@ -100,7 +100,7 @@ footer {
 }
 
 .sponsor {
-    width: 30vw;
+    width: 10vw;
     margin-left: 5vw;
     margin-right: 5vw;
 }
@@ -108,13 +108,17 @@ footer {
 #mail {
     color: #1A5D1A;
 }
-
 #sponsorGridContainer {
-    margin-top: 0;
-    margin-left: 10vw;
+
+    align-items: center;
     margin-right: 2vw;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 2vh;
+    justify-items: center; 
+    justify-content: center; 
+    overflow:hidden;
 }
 .carousel-control-prev {
     height: 30vh;
@@ -123,7 +127,7 @@ footer {
     height: 30vh;
 }
 #headerLogo {
-    font-size: 30px !important;
+    font-size: 1vw !important;
 }
 
 .prizeSection {
@@ -135,4 +139,14 @@ footer {
 
 .image {
     height: 18rem;
+}
+#minioImg {
+    height: 20vh;
+    width: auto;
+    margin: 0;
+}
+#minioText {
+    width: 10vw;
+    height: auto;
+    margin-left: 3vw;
 }
